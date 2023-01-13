@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK SHIRT</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="nabila khaerunisa'.png">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"></i> NK<span>SHIRT</span></a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="product.html">product</a>
+            <a href="review.html">review</a>
+        </nav>
+    </header>
+    <div id="close-form" class="fas fa-times"></div>
+    </section>
+    <section class="order" id="order">
+        <h1 class="heading">checkOut</h1>
+        <div class="row">
+            <form action="">
+                <h1>Payment Information</h1>
+                <p>Name</p>
+                <input type="text" class="inputbox" name="name" required />
+                <p>Card Number</p>
+                <input type="number" class="inputbox" name="card_number" id="card_number" required />
+
+                <p>Card Type</p>
+                <select class="inputbox" name="card_type" id="card_type" required>
+                    <option value="">--Select a Card Type--</option>
+                    <option value="Bni">BNI</option>
+                    <option value="Dana">DANA</option>
+                    <option value="Gopay">GoPay</option>
+                    </select>
+                </div>
+                <div class="expcvv">
+
+                    <p class="expcvv_text">Expiry</p>
+                    <input type="date" class="inputbox" name="exp_date" id="exp_date" required />
+
+                    <p class="expcvv_text2">Size</p>
+                    <input type="text" class="inputbox" name="size" id="size" required />
+                </div>
+                <a href="done.html" class="btn">CheckOut</a>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Address</h3>
+                <a href="https://goo.gl/maps/4QYMVuhSfHn6dsXD8" 
+                class="link"> Jl. Nakula Raya, Pendrikan Kidul,Semarang Tengah, Kota Semarang, Jawa Tengah 50131 </a>
+                <div class="share">
+                    <a href="https://twitter.com/AnggaraMaheswa2" class="fab fa-twitter"></a>
+                    <a href="https://instagram.com/nk.shirt?igshid=YmMyMTA2M2Y=" class="fab fa-instagram"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact</h3>
+                <a href="mailto:qeonmaheswara@gmail.com" class="link"> <i class="fas fa-envelope"></i> qeonmaheswara@gmail.com</a>
+                <a href="http://wa.me/082243370392" class="link"><i class="fas fa-phone"></i> +6282243370392</a>
+            </div>
+            <div class="box">
+                <h3>Operational</h3>
+                <p>everyday <br> 06.30 - 23.59 WIB </p>
+            </div>
+        </div>
+        <div class="credit">created by <span>Anggara Maheswara </span> all right your order ! </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+</body>
+</html>
